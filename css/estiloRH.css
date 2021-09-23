@@ -1,0 +1,84 @@
+.contenedorR{
+   
+    width: 100%;
+    max-width: 1500px ;
+    margin: 20px auto;
+    overflow: hidden;
+    filter: drop-shadow(0 1px 5px rgba(0, 0, 0, 0.7));
+    position: relative;
+    border-radius: 5px;
+ 
+}
+.galeria-reseña{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.imagen-reseña{ /* agrupar las imagenes en grupos */
+    width: 40%;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height:370px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    border-radius: 7px;
+   
+ 
+}
+#img{
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: 60%;  
+}
+.iimagen-reseña  img{
+    padding: 100px;
+    position: relative;
+    width: 10px;
+    height: 40%;
+    object-fit: cover;
+  
+    right: 50px;
+}
+/* animacion */
+ .hover-reseña{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);/*desaparece la imagen de transicion*/
+    background: rgba(132, 21, 6, 0.479);
+    transition: transform .3s; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* icono del centro */
+.hover-reseña img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -7px;
+    
+
+    
+  
+  
+}
+.hover-reseña p{
+    color: #fff;
+}
+.imagen-reseña:hover .hover-reseña{
+    transform: scale(1);
+}
+
+
+
+
+

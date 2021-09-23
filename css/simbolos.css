@@ -1,0 +1,130 @@
+/* Ocultar botón radio */
+input[id^="spoiler"]{
+    display: none;
+    }
+    /* Estilo botón clicable */
+    input[id^="spoiler"] + label {
+        color: cornsilk;
+    display: inline-block;
+    width: 800px;
+    margin: 15px;
+    padding: 10px ;
+    background: #ff04268f;
+    cursor: pointer;
+
+    position:relative;
+    
+    left: 23%;
+  
+
+    margin-left: 15px;
+    border-radius: 10px;
+    transition: all 2s ease-out;
+    border: 6px solid transparent;
+    border-left-color: #b10312fd;
+    content: '';
+    text-align: center;
+    
+ 
+    
+    }
+    /* Estilo botón cuando su INPUT está seleccionado */
+    input[id^="spoiler"]:checked + label {
+    color: rgb(255, 255, 255);
+    background: #b10312fd;
+    }
+    /* Estilo caja SPOILER (inicialmente oculto) */
+    input[id^="spoiler"] ~ .spoiler {
+    width: 90%;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin: 0 auto 0;
+    border-left-color: none;.
+    
+    
+    }
+    /* Estilo caja SPOILER cuando su INPUT está seleccionado */
+    input[id^="spoiler"]:checked + label + .spoiler{
+        width: 800px;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 100px;
+        display: block;
+    background: rgba(210, 30, 30, 0.336);
+    border-radius: 10px;
+    height: auto;
+    opacity: 1;
+    text-align: center;
+    position:relative;
+    
+    left: 17.6%;
+    }
+    .simbolo h1{
+        padding: 15px;
+        font-size: 30px;
+        text-align: center;
+        color: rgb(141, 2, 2);
+    }
+    span{
+        text-align: center;
+    }
+
+    .spoiler p{
+        text-align: center;
+        color: rgb(255, 255, 255);
+      
+    }
+    .spoiler span{
+       
+        background: #ff044f8f;
+        color: rgb(255, 254, 254);
+        border-radius: 5px;
+      
+        width: 45px;
+        height: 20px;
+
+       
+        font-weight: 30;
+        
+      }
+     .spoiler .img-escudo{
+
+        width: 40%;
+        height: 40%;
+     }
+     .spoiler .img-bandera{
+        width: 70%;
+        height: 70%;  
+     }
+
+     @media screen and (max-width:1000px) {
+
+        input[id^="spoiler"] + label {
+       
+           
+            width: 50%;
+            height: 50%;
+         
+
+        }
+
+        input[id^="spoiler"]:checked + label {
+            display: flex;
+            left: 30%;
+            width: 50%;
+            height: 50%;
+            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        }
+           input[id^="spoiler"]:checked + label + .spoiler{
+            display: flex;
+            left: 30%;
+            width: 50%;
+            height: 50%;
+            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+           }
+     }

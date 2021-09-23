@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+.cont-uni{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.title2{
+    margin: 5px;
+    border-radius: 5px;
+    background: #99977e;
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2);
+}
+.container{
+
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    background: #faf8db;
+    width: 500px;
+    height: 730px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 230px;
+    height: 420px;
+    float: left;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+    margin: 5px;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 14px;
+    font-weight: 300;
+    left: 7px;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+/* Ocultar botón radio */
+input[id^="spoiler"]{
+    display: none;
+    }
+    /* Estilo botón clicable */
+    input[id^="spoiler"] + label {
+        color: cornsilk;
+    display: inline-block;
+    width:auto;
+    margin: 1px;
+    padding: 10px ;
+    background: #ff04268f;
+    cursor: pointer;
+
+    position:relative;
+
+
+    margin-left: 15px;
+    border-radius: 10px;
+    transition: all 2s ease-out;
+    border: 6px solid transparent;
+    border-left-color: #b10312fd;
+    content: '';
+    text-align: center;
+    
+ 
+    
+    }
+
+   
+    /* Estilo botón cuando su INPUT está seleccionado */
+    input[id^="spoiler"]:checked + label {
+    color: rgb(255, 255, 255);
+    background: #b10312fd;
+    }
+    /* Estilo caja SPOILER (inicialmente oculto) */
+    input[id^="spoiler"] ~ .spoiler {
+    width:auto;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin: 0 auto 0;
+    border-left-color: none;.
+    
+    
+    }
+    /* Estilo caja SPOILER cuando su INPUT está seleccionado */
+    input[id^="spoiler"]:checked + label + .spoiler{
+        width: auto;
+        padding: 10px;
+        margin: 9px;
+margin-right: 200px;
+     display: block;
+    background: rgba(24, 21, 21, 0.336);
+    border-radius: 10px;
+    height: auto;
+    opacity: 1;
+    text-align: center;
+    position:relative;
+    
+   
+    }
+    
+  
+    .spoiler p{
+        text-align: justify;
+        color: rgb(0, 0, 0);
+      
+    }
+    .spoiler span{
+       
+        background: #ff044f8f;
+        color: rgb(255, 254, 254);
+        border-radius: 5px;
+      
+        width: 45px;
+        height: 20px;
+
+       
+        font-weight: 30;
+        
+      }
+    
+
+     @media screen and (max-width:1000px) {
+
+        input[id^="spoiler"] + label {
+       
+           
+            width: auto;
+            height: auto;
+         
+
+        }
+
+        input[id^="spoiler"]:checked + label {
+            display: flex;
+            width: auto;
+            height: auto;
+            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        }
+           input[id^="spoiler"]:checked + label + .spoiler{
+            display: flex;
+            width: auto;
+            height: auto;
+            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+           }
+     }
+
+     @media screen and (max-width:1000px) {
+     .container{
+
+        width:100%;
+        height: 100%;
+       
+    }
+    
+    .container .card{
+   
+        width:100%;
+        height: 100%;
+       
+    }
+    
+    .container .card:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    .container .card img{
+        width:100%;
+        height: 100%;
+      
+    }
+    
+    
+    .container .card h4{
+        width:100%;
+        height: 100%;
+      
+    }
+    
+    .container .card p{
+        width:100%;
+        height: 100%;
+      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
