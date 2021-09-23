@@ -1,0 +1,133 @@
+@import url(../../fonts.googleapis.com/css1a67.css?family=Indie+Flower|Lobster|Poiret+One|Pacifico|Amatic+SC|Bad+Script|Sacramento|Grand+Hotel|Sigmar+One);
+
+
+.font{
+ 
+}
+
+
+.animated{
+background:  #f8f5c7;
+}
+.container-titulo h3{
+    text-align: center;
+color: rgb(204, 55, 55);
+text-shadow: none;
+box-shadow: none;
+}
+p {
+  line-height: 2rem;
+  
+}
+
+
+
+.justify{
+	text-align: justify;
+}
+.bold{
+	font-weight: bold;
+ 
+}
+.bold1{
+    
+	font-weight: bold;
+ color: red;
+}
+@media screen and (max-width: 600px){
+	.responsive_n1{
+	width: 95%;
+	margin-bottom: 10px;
+}
+}
+
+.logos_png{
+position: relative;
+width: 20%;
+float: left;
+transition: .8s;
+opacity: .5;	
+}
+.logos_png:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.logos_png_f{
+position: relative;
+width: 18%;
+float: left;
+transition: .8s;
+opacity: .5;	
+}
+
+.logos_png_f:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.conte_logos{
+    top: -100px;
+    position: relative;
+}
+
+.conte_logos_f{
+    top: -45px;
+    position: relative;
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+	.conte_logos{
+   top: 23px;
+}
+}
+
+@media screen and (max-width: 520px){
+	.conte_logos{
+   display: none;
+}
+.conte_logos_f{
+   display: block;
+}
+}
+
+@media screen and (max-width: 420px){
+	.conte_logos_f{
+		right: -55px;
+   
+}
+}
+
+@media screen and (max-width: 365px){
+	.conte_logos_f{
+       right: -85px;
+}
+.logos_png_f {
+    width: 14%;
+}
+.cop{
+	left: -18px;
+	position: relative;
+}
+}
+
+.tittle{
+	
+      color: rgb(104, 1, 1);
+      font-size: 25px;
+      font-weight: bold;
+}
+
+.font_18{
+	font-size: 18px;
+}
+
+.cont_text{
+	    position: relative;
+    top: -24px;
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
