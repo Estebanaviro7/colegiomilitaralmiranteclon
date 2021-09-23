@@ -184,8 +184,9 @@ margin-right: 200px;
     align-items: center;
         }
            input[id^="spoiler"]:checked + label + .spoiler{
+               left:1%;
             display: flex;
-            width: auto;
+            width: 90%;
             height: auto;
             flex-direction: column;
     justify-content: center;
@@ -214,7 +215,7 @@ margin-right: 200px;
     }
     
     .container .card img{
-        width:100%;
+        width:90%;
         height: 100%;
       
     }
