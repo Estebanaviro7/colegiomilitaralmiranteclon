@@ -99,15 +99,16 @@ ul li a {
 }
 
 @media (max-width: 1068px) {
-  ul li {  
-    width: 90%;
-	height: 40px;
+ ul li {  
+	border-radius: 5px;
+    width: auto;
+	height: auto;
     padding: 7px;
     text-align: left;
     
   }
 .submenu{
-
+height: auto;
   display: grid;
  left: 255px;
  bottom: auto;
