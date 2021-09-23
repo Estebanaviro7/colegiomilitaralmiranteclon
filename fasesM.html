@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="css/estiloslibox.css">
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/estiloSerEduc.css">
+    <link rel="stylesheet" href="css/fasesM.css">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <script src="js/lightbox-plus-jquery.min.js"></script>
 
     
@@ -27,7 +28,7 @@
   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'><link rel="stylesheet" href="css/estiloRH.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'><link rel="stylesheet" href="css/fasesM.css">
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
@@ -290,128 +291,168 @@
                     </path></svg></div>
 	
 </header>
-<script>$('section.awSlider .carousel').carousel({
-	pause: "hover",
-  interval: 2000
-});
 
-var startImage = $('section.awSlider .item.active > img').attr('src');
-$('section.awSlider').append('<img src="' + startImage + '">');
-
-$('section.awSlider .carousel').on('slid.bs.carousel', function () {
- var bscn = $(this).find('.item.active > img').attr('src');
-	$('section.awSlider > img').attr('src',bscn);
-});
-</script>
-<section class="awSlider">
-    <div  class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target=".carousel" data-slide-to="0" class="active"></li>
-        <li data-target=".carousel" data-slide-to="1"></li>
-        <li data-target=".carousel" data-slide-to="2"></li>
-        <li data-target=".carousel" data-slide-to="3"></li>
-      </ol>
-  
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="img/1.jpg">
-          <div class="carousel-caption">1</div>
-        </div>
-        <div class="item">
-          <img src="img/2.jpg">
-          <div class="carousel-caption">2</div>
-        </div>
-        <div class="item">
-          <img src="img/3.jpg">
-          <div class="carousel-caption">3</div>
-        </div>
-        <div class="item">
-          <img src="img/4.jpg">
-          <div class="carousel-caption">4</div>
-        </div>
-      </div>
-  
-      <!-- Controls -->
-      <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Geri</span>
-      </a>
-      <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">İleri</span>
-      </a>
-    </div>
-  </section>
-  <!-- partial -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script><script  src="./script.js"></script>
-  
-<main>
-     <!-- <div class="slider">
-        <ul>
-            <li><img src="img/1.jpg" alt=""> </li>
-            <li><img src="img/2.jpg" alt=""> </li>
-            <li><img src="img/3.jpg" alt=""> </li>
-            <li><img src="img/4.jpg" alt=""> </li>
-        </ul>
-    </div> -->
     
-   
-    <section class="portafolio">
-        
-        <h2 class="titulo"> Izada Al Pabellón</h2>
+<div class=" animated zoomIn">
 
-        <!--start-->
-        <div id="ninja-slider">
-            <div class="slider-inner">
-                <ul>
-                    <li>
-                        <a class="ns-img" href="img/Alumnos miitar izada/a1.jpg"></a>
-                        <div class="caption">AMORTEGUI  <BR> PACHECO SALOME</div>
-                    </li>
-                    <li>
-                        <a class="ns-img" href="img/Alumnos miitar izada/a2.jpg"></a>
-                        <div class="caption">RODRIGUEZ <BR>DICKSON YAREINIS</div>
-                    </li>
-                    <li>
-                        <a class="ns-img" href="img/Alumnos miitar izada/a3.jpg"></a>
-                        <div class="caption">PLAZA <BR>SANCHES ANDRES</div>
-                    </li>
-                    <li>
-                        <a class="ns-img" href="img/Alumnos miitar izada/a4.jpg"></a>
-                        <div class="caption">MENDOZA <BR>PEREZ MARIA</div>
-                    </li>
-                    <li>
-                        <a class="ns-img" href="img/Alumnos miitar izada/a5.jpg"></a>
-                        <div class="caption">GARCIA <BR>CARO ASHLEY</div>
-                    </li>
-                </ul>
-                <div class="navsWrapper">
-                    <div id="ninja-slider-prev"></div>
-                    <div id="ninja-slider-next"></div>
-                </div>
-            </div>
-     
-        <section class="galeria">
-            <div class="contenedor">
-            <article class="galeria__columna">
-                <a href="img/img1.jpg" data-lightbox="mygallery" data-title="INSCRIPCIONES ABIERTAS 2021"><img class="img" src="img/img1.jpg"></a>  
-            </article>
-          
-            <article class="galeria__columna2">
-                <a href="img/IZADA DE PABELLÓN.jpg" data-lightbox="mygallery" data-title="INSCRIPCIONES ABIERTAS 2021"><img class="img" src="img/IZADA DE PABELLÓN.jpg"></a>  
-            </article>
-
-			<div class="revista">
-                <a href="pdf/noti.pdf" target="_blank">DEJANDO HUELLA &nbsp;  ALMIRANTISTA <br> DESCARGAR</a>
-            </div>
-        </div>
-        </section>  
-        </div>      
-      </main>
-    </section>
+    
+ 
+   <center>
+   <div class="container-titulo" style="width: 100%;" id="switch">
+ <h2 class="tittle blue-text bold center">Fases De La Instruccion Militar</h2>
+     <div class="section white z-depth-1">
+ 
+   <div class="container font justify bold font_18">
+ 
+ 
+ <p>La orientación militar especial para Liceos de Ejercito, Gimnasios de la Fuerza Aérea, Colegios Navales y la instrucción militar que se adelante en los colegios militares se dividirán en tres fases así:</p>
+ <br>
+ <h3 class="red-text text-darken-2 bold">FASE PRELIMINAR.</h3>
+ 
+ <p>Podrán acceder a la fase preliminar los cadetes que voluntariamente y con autorización escrita de los padres, inicien la media vocacional en grado académico de noveno.
+ <br><br>
+ <p class="tittle"> <b>Propósitos específicos:</b></p> <p>Formar al cadete en el conocimiento de la institución militar, con valores patrios, éticos, virtudes militares y principios democráticos, preparándolo integralmente para que se desempeñe en forma eficaz.</p>
+ <br>
+ <p class="tittle"><b> Alcance:</b></p> <p>Se partirá del desarrollo humano integral con orientación militar, donde se pretende formar un cadete de noveno en la teoría y en la práctica, buscando una proyección hacia el futuro, en que los estudiantes, hoy tendrán un desempeño con disciplina en forma creativa, madura, y responsable tanto en las áreas militares como civiles. Las áreas humanística, física, técnica, táctica, administrativa y logística se desarrollaran en una intensidad de 39 horas.</p>
+ <br>
+ <h3 class="red-text text-darken-2 bold">FASE PRIMERO MILITAR.</h3>
+ 
+ <p>Podrán acceder a la fase de primero militar los cadetes que voluntariamente y con autorización escrita de los padres, continúen con la media vocacional en decimo grado y hayan aprobado la fase preliminar.</p>
+ <br>
+ <p class="tittle"><b> Propósitos específicos:</b></p> <p>Capacitar al cadete para desarrollar sus habilidades físicas, técnicas, tácticas, destrezas y preparación sicológica para que se desempeñe como integrante de un pelotón, promoviendo la disciplina e incentivando el respeto hacia sus superiores, compañeros y subalternos destacando la dignidad humana.</p>
+ <br>
+ <p class="tittle"><b> Alcance:</b></p> <p>Se partirá del desarrollo humano integral con orientación militar, donde se pretende formar un cadete de decimo como integrante de un pelotón desarrollando el ser, el saber y el saber hacer en el área donde vive. Las áreas humanística, física, técnica, táctica, administrativa y logística se desarrollaran en una intensidad de 39 horas.</p>
+ <br>
+ <h3 class="red-text text-darken-2 bold">FASE SEGUNDO MILITAR.</h3>
+ 
+ <p>Podrán acceder a la fase de segundo militar los cadetes que voluntariamente y mediante autorización descrita de los padres, continúen con la media vocacional en grado undécimo y que hayan aprobado la fase preliminar y primero militar.</p>
+ <br>
+ <p class="tittle"><b> Propósitos específicos:</b></p> <p>Capacitar al cadete técnica, táctica y operativamente para desempeñarse como integrante de una unidad fundamental, creando expectativas hacia la carrera militar, de igual manera que el futuro reservista conozca la descripción y conformación de las reservas a las cuales va a pertenecer, constituyéndose en la reserva activa del ejército y se mantenga el respeto por las fuerzas militares.</p>
+ <br>
+ <p class="tittle"><b> Alcance:</b></p> <p>Se partirá del desarrollo humano integral con orientación militar, donde se pretende formar un cadete de once como un reservista de primera clase. Las áreas humanística, física, técnica, táctica, administrativa y logística se desarrollaran en una intensidad de 39 horas.</p>
+ <br>
+ <h3 class="blue-text text-darken-2 bold">MÉTODOS Y GENERALIDADES DE INSTRUCCIÓN.</h3>
+ <br>
+ <p>Los métodos de la instrucción a desarrollar en las fases (Preliminar, primero militar y segundo militar), deben ser.</p>
+ <br>
+ <ul>
+ <li> <p>- Instrucción práctica.</p></li><br>
+ <li> <p>- Instrucción teórica-práctica.</p></li><br>
+ <li> <p>- Instrucción demostrativa-práctica.</p></li><br>
+ <li> <p>- Demostración (para afianzar el aprendizaje en el alumno).</p></li>
+ </ul>
+ <br>
+ <p>Cualquiera que sea el método de instrucción adoptado, la instrucción debe tener las siguientes características.</p>
+ <br>
+ <ul>
+ <li> <p>- El personaje central debe ser el cadete no el instructor.</p></li>
+ <li> <p>- La actividad principal debe ser el aprendizaje del cadete y no la conferencia del instructor.</p></li>
+ <li> <p>- La base para la evaluación debe ser la habilidad de ejecución y no la memoria.</p></li>
+ <li> <p>- La instrucción se debe dar con el criterio de “aprender haciendo”.</p></li>
+ </ul>
+ <br><br>
+ 
+ <p><b class="red-text text-darken-2 bold1">* </b> Los cadetes que dejen de asistir al diez por ciento (10%) de las horas de instrucción programadas en una fase, perderán dicha fase.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>Ningún alumno podrá ingresar directamente a la primera fase militar sin haber adelantado y aprobado previamente la fase preliminar.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>Ningún alumno podrá ingresar directamente a la segunda fase militar sin haber adelantado y aprobado la fase preliminar y la primera fase militar.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>Los cadetes que habiendo adelantado las tres fases de instrucción militar, obtengan su título de bachiller y deseen continuar la carrera militar, podrán ingresar a las escuelas de formación, con prelación sobre los demás aspirantes, de otros colegios no militares, previa presentación del examen médico de aptitud física, certificados de estudio del establecimiento y concepto favorable de la unidad directora.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">*  </b>Las materias e intensidad de la instrucción militar en cada una de las fases, se regirá por los programas de instrucción y entrenamiento (PIE) que expida la dirección de instrucción y entrenamiento de cada fuerza. Las materias y asignaturas a que se refieren la fase preliminar, primero militar y segundo militar son de obligatoria inclusión y cumplimiento.</p>
+ 
+ <br>
+ <p>La evaluación se regirán bajo decreto 1290 de 2009 del ministerio de educación nacional (Por el cual se reglamenta la evaluación del aprendizaje y promoción de los estudiantes de los niveles de educación básica y media vocacional).teniendo presente la Escala de valoración nacional: Cada establecimiento educativo definirá y adoptará su escala de valoración de los desempeños de los estudiantes en su sistema de evaluación. Para facilitar la movilidad de los estudiantes entre establecimientos educativos, cada escala deberá expresar su equivalencia con la escala de valoración nacional:</p>
+ <br>
+ <ul>
+ <li class="tittle"><b class="red-text text-darken-2 bold1">*</b> Desempeño Superior:<h3> ° 4,7 - 5,0</h3></li>
+ <li class="tittle"><b class="red-text text-darken-2 bold1">*</b> Desempeño Alto:<h3> ° 3,7 - 4,6</h3></li>
+ <li class="tittle"><b class="red-text text-darken-2 bold1">*</b> Desempeño Básico:<h3> ° 3,0 - 3,6</h3></li>
+ <li class="tittle"><b class="red-text text-darken-2 bold1">*</b> Desempeño Bajo: <h3>° 0,0 – 2,9</h3></li>
+ </ul>
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>La denominación desempeño básico se entiende como la superación de los desempeños necesarios en relación con las áreas obligatorias y fundamentales, teniendo como referente los estándares básicos, las orientaciones y lineamientos expedidos por el Ministerio de Educación Nacional y lo establecido en el proyecto educativo institucional. El desempeño bajo se entiende como la no superación de los mismos.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>La intensidad mínima horaria en cada fase será la siguiente:</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>Para el desarrollo de la instrucción académica se impartirá de LUNES a JUEVES con intensidad horaria establecida por el Ministerio de Educación Nacional</p>
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>Para la orientación militar de los colegios militares se deberá impartir los días VIERNES y SABADO de acuerdo a la directiva de instrucción y entrenamiento.</p>
+ <br>
+ 
+ <p>   <center>
+ <img class="materialboxed responsive-img" src="img/imgg.png">
+ </center>
+ </p>
+  <br>
+ 
+ 
+ 
+ <p class="tittle" align="center"> El horario de instrucción en el ejercicio anual de servicio práctico es:</p>
+ <br>
+ <ul>
+ <li>De 07:00 horas a las 14:00 horas.</li><br>
+ <li>De 19:00 horas a las 23:00 horas para la nocturna.</li>
+ </ul>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>Al terminar la primera fase militar, se realizara una ceremonia especial de toma del código de Honor del Cadete.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>El Juramento de Bandera se llevará a cabo en ceremonia especial de acuerdo al Reglamento de Ceremonial Militar.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>Los cadetes de los establecimientos educativos que cursen la instrucción militar tendrán derecho a que se les expida tarjeta de reservista de primera clase siempre y cuando hayan adelantado y aprobado las tres fases de instrucción, y se gradúen como bachilleres. Esta se les expedirá de acuerdo con la normatividad vigente.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>Los estudiantes que de acuerdo con la ley 48 de 1993 estén exentos de prestar servicio militar deben presentarse directamente al distrito militar para definir su situación militar.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>Se expedirá libreta militar a personal femenino de acuerdo con la normatividad vigente del Ministerio de Defensa Nacional, para quienes voluntariamente decidan adelantar y cumplir la totalidad de las fases de instrucción militar.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>El servicio de Reclutamiento y Movilización por intermedio del distrito al cual esté asignado el establecimiento educativo de orientación militar, debe llevar los controles y registros de incorporación, grado de instrucción y resultados obtenidos en coordinación con la unidad directora, para la expedición de tarjetas de reservistas de primera clase. Las tarjetas de reservista se entregarán a los cadetes dentro del acto de clausura de fin de año, dándole la solemnidad que se requiere.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>Los establecimientos educativos con orientación militar, podrán participar en ceremonias militares, jornadas de acciones integrales y las practicas de atención humanitaria. Dicha participación obtendrá sumatoria a la intensidad horaria de las prácticas de servicio social para el estado.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>La instrucción militar se programará semanalmente en todos los establecimientos educativos, su ejecución se llevará a cabo en sus áreas respectivas o en coordinación con la unidad directora.
+ </p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>El cadete que por fuerza mayor o caso fortuito debidamente certificado no pueda asistir a la revista de instrucción o al ejercicio de servicio práctico final, podrá suplir su inasistencia, realizando un servicio especial con la misma intensidad horaria ordenado por el comandante de la unidad directora.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>Los auxiliares de la instrucción de la fase preliminar y primero militar, serán nombrados entre los cadetes que adelanten la fase de segundo militar. Este personal recibirá la distinción de Brigadier, Brigadier Mayor de Unidad Fundamental de acuerdo con sus capacidades y aptitudes, los cuales serán nombrados como comandantes y reemplazantes de escuadra.</p>
+ 
+ <br>
+ <p><b class="red-text text-darken-2 bold1">* </b>El cadete que repruebe el año académico pero apruebe la fase militar correspondiente al periodo no podrá continuar con su programa de instrucción militar hasta que nivele académicamente.</p>
+ 
+ 
+       </div>
+ 
+   </div>
+ 
+ 
+    
+      
+       </div>
+     </div>
+  </center>
+ 
+ 
+   </div><!-- SWITCH -->
+ <br>
+ 
+  
 	
 <footer>
 
