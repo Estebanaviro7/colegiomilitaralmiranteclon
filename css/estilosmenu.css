@@ -107,6 +107,36 @@ ul li a {
     text-align: left;
     
   }
+	.con-sub {
+	width: auto;
+	height: 30px;
+	left: 50px;
+	
+	
+}
+  .con-sub .submenu{
+	  position: relative;
+	  bottom: 200px;
+	  width:100%;
+	 
+	  
+  }
+
+  .con-sub1 {
+	width: auto;
+	height: 30px;
+	left: -50px;
+	
+	
+}
+  .con-sub1 .submenu{
+	  position: relative;
+	 bottom: 100px;
+	  width:100%;
+	 
+	  
+  }
+	
 .submenu{
 height: auto;
   display: grid;
