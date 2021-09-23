@@ -120,7 +120,7 @@ input[id^="spoiler"]{
         }
            input[id^="spoiler"]:checked + label + .spoiler{
             display: flex;
-            left: 30%;
+            left: 10%;
             width: 50%;
             height: 50%;
             flex-direction: column;
