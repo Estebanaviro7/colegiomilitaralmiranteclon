@@ -77,13 +77,12 @@
 .imagen-reseña:hover .hover-reseña{
     transform: scale(1);
 }
+
 @media only screen and (max-width: 1550px){
 
     .imagen-reseña{
 width: auto ;
     }
 }
-
-
 
 

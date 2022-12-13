@@ -1,0 +1,134 @@
+ul,li {
+    list-style:none;
+}
+a{
+    color:inherit;
+    text-decoration:none;
+}
+.flipbook {
+    position: relative;
+    width: 1270px;
+    height: 740px;
+    margin: auto;
+}
+
+.double {
+    width: 1280px;
+    height: 740px;
+}
+.mds-section {
+    position: relative;
+    max-width: 1780px;
+    margin: 10px;
+   
+}
+.hdt {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+.hdt>span {
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.vs {
+    width: 1540px;
+    margin: 10px;
+    position: relative;
+    padding-bottom: 5px;
+
+}
+.pg_num {
+    position: absolute;
+    left: 5px;
+    top: -4px;
+    z-index: 100;
+    padding: 0px 0 0 0px;
+}
+.mds-section.look .pg_num>li {
+    margin-top: 10px;
+}
+.mds-section.look .pg_num>li:first-child {
+    margin-top:0;
+}
+.mds-section.look .pg_num>li>a {
+        border-bottom: transparent solid 4px;
+    padding: 2px 0px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.mds-section.look .pg_num>li.active>a {
+    border-bottom-color: #000000;
+}
+.flipbook-viewport {
+    width: 1300px;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+.flip-container {
+    margin: auto;
+    width: 1300px;
+    position: relative;
+}   
+
+/* .mds-section.look .flipbook-viewport .depth.front {
+    left: -16px;
+    background-color:yellow;
+} */
+/* .mds-section.look .flipbook-viewport .depth {
+    background: url(https://static.mlb-korea.com/pc/static/images/mn/look_pages_depth.png) no-repeat;
+    position: absolute;
+    top: 0px;
+    width: 16px;
+    bottom: 0px;
+} */
+/* .page {
+    background-color:yellow;
+}
+.depth {
+    background-color:yellow;
+} */
+
+.look_get {
+    background-color:yellow;
+    display:inline-block;
+    position: absolute;
+    left: 125px;
+    bottom: 30px;
+    z-index: 10;
+}
+.btn_get {
+    display: block;
+    width: 178px;
+    height: 35px;
+    font-size: 14px;
+    background: rgba(255,255,255,0.9);
+    line-height: 49px;
+    padding: 0 18px;
+    font-weight: bold;
+}
+.btn_atras{
+    
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(245, 87, 87);
+    color:#fff;
+width: 80px ;
+height: 30px;
+}
+
+.btn_atras:hover{
+    cursor:pointer;
+    font-size: 20px;
+    padding-top: 20px;
+    background: rgb(248, 64, 64); 
+    width: 100px;
+    height: 40px;
+}

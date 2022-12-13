@@ -1,0 +1,252 @@
+
+  .contenedor-perfil{
+    width: 80%;
+    height: auto;
+  }
+  
+  @keyframes anim {
+     0% {
+       transform: scaleY(0);
+     }
+     100% {
+       transform: scaleY(1);
+     }
+   }
+   tr {
+     
+     background: #eee;
+     border-bottom: 1px solid #ddd;
+     display: none;
+     transform-origin: top;
+   }
+   tr.active {
+   
+     display:table-row;
+     animation: anim 0.5s ease;
+   }
+   td {
+     width: auto;
+     padding: 10px;
+   }
+ .titulop{
+     position: relative;
+     color: rgb(63, 30, 30);
+     text-align: center;
+     margin-top: 25px;
+     top: 15px;
+ 
+ }
+ 
+ p{
+     text-align: justify;
+     text-shadow: none;
+     padding: 15px;
+ }
+ table, th, td {
+ 
+     border: solid 0.5px #4b494967;
+     padding: 20px;
+     border-collapse: collapse;
+  
+ }
+ 
+ .tabla-estudiante {
+   display: inline-block;
+   position: relative;
+   width:40%;
+   height: auto;
+   margin:20px;
+   
+   color:#000000;
+   background: rgb(248, 240, 202);
+   
+   text-align:center;
+  
+ 
+ }
+  
+ 
+ table tr:hover {
+     background-color: rgba(255, 238, 0, 0.233);
+     cursor: pointer;
+   }
+ 
+ 
+ h2{
+   margin-bottom: 20px;
+   font-size: 20px;
+   text-align: justify;
+ }
+ 
+ h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: justify;
+  }
+ .titulop2{
+    position: relative;
+    color: rgb(63, 30, 30);
+    text-align: center;
+    margin-top: 25px;
+    bottom: 770px;
+
+}
+ 
+ tr.active1  {
+  
+    display:table-row;
+    animation: anim 0.5s ease;
+  }
+  .tabla-estudiante2 {
+    display: inline-block;
+    position: relative;
+    width:40%;
+    height: auto;
+    margin:20px;
+    left: 50%;
+    bottom:785px;
+    color:#000000;
+    background: rgb(248, 240, 202);
+    
+    text-align:center;
+   
+  
+  }
+  @media only screen and (max-width: 1400px) {
+     
+    .contenedor-perfil{
+        width: auto;
+        height: auto;
+        
+            }
+        
+            table, th, td {
+               display: inline-block;
+               position: relative;
+               font-size: 10px;
+               border: solid 0.5px #4b494967;
+               padding: 1px;
+               border-collapse: collapse;
+               width: 5px;
+               margin:2px;
+           }
+           
+          .tabla-estudiante{
+            display: inline-block;
+            position: relative;
+            width: auto;
+            height: auto;
+          padding: 20px;
+            margin:auto;
+            right: 30%;
+           
+                }
+             
+                .tabla-estudiante2{
+                   display: inline-block;
+                   position: relative;
+                   width: auto;
+                   height: auto;
+                 padding: 20px;
+                bottom:497px;
+                   margin:auto;
+                  left: 50%;
+                  
+                       }
+          
+                       .titulop2{
+                           display: inline-block;
+                           position: relative;
+                           color: rgb(63, 30, 30);
+                         
+                           margin-top: 25px;
+                           bottom:480px;
+                          
+       
+                    
+                       }
+               tbody td:before {
+                content: attr(data-th);
+                display: block;
+                text-align:center;
+            }
+            
+          tbody td,th{
+            width: 300px;
+              display: block;
+              text-align:center;
+          }
+        
+  }
+ 
+   @media only screen and (max-width: 900px) {
+ 
+         /* Force table to not be like tables anymore  */
+     
+     .contenedor-perfil{
+ width: auto;
+ height: auto;
+ 
+     }
+ 
+     table, th, td {
+        display: inline-block;
+        position: relative;
+        font-size: 10px;
+        border: solid 0.5px #4b494967;
+        padding: 1px;
+        border-collapse: collapse;
+        width: 5px;
+        margin:2px;
+    }
+    
+   .tabla-estudiante{
+     display: inline-block;
+     position: relative;
+     width: auto;
+     height: auto;
+   padding: 20px;
+     margin:auto;
+    
+         }
+      
+         .tabla-estudiante2{
+            display: inline-block;
+            position: relative;
+            width: auto;
+            height: auto;
+          padding: 20px;
+         bottom:-28px;
+            margin:auto;
+           left: 0;
+           
+                }
+   
+                .titulop2{
+                    display: inline-block;
+                    position: relative;
+                    color: rgb(63, 30, 30);
+                  
+                    margin-top: 25px;
+                    bottom:-35px;
+                    margin-left: -400px;
+
+             
+                }
+        tbody td:before {
+         content: attr(data-th);
+         display: block;
+         text-align:center;
+     }
+     
+   tbody td,th{
+     width: 300px;
+       display: block;
+       text-align:center;
+   }
+ 
+    
+  
+    
+    }
+ 

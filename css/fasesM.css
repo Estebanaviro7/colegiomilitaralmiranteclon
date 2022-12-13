@@ -40,7 +40,134 @@ p {
 	margin-bottom: 10px;
 }
 }
+  /*SECCION DE IMAGENES */
+.contenedor-perfil{
+    width: auto;
+    height: auto;
+  }
+  
+  @keyframes anim {
+     0% {
+       transform: scaleY(0);
+     }
+     100% {
+       transform: scaleY(1);
+     }
+   }
+  
+ .titulop{
+     position: relative;
+     color: rgb(63, 30, 30);
+     text-align: center;
+     margin-top: 25px;
+     top: 15px;
+ 
+ }
+ .contenido-textos h2 span{
+    text-align: center;
+    background: #f5e4e98f;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 1px;
+    font-weight: 30;
+    
+  }
+ 
+  .contenedor-perfil  p{
 
+    font-size: 20px;
+     text-align: center;
+     text-shadow: none;
+     box-shadow: none;
+     padding: 15px;
+ }
+
+ 
+ 
+ h1{
+  margin-bottom: 20px;
+  font-size: 30px;
+  
+  position: relative;
+     color: rgb(63, 30, 30);
+     text-align: center;
+     margin-top: 25px;
+     top: 15px;
+}
+
+  
+ h2{
+   padding: 17px;
+   margin-bottom: 20px;
+   font-size: 20px;
+   text-align: justify;
+ }
+ 
+
+ .galeria__columna .img {
+  background: rgb(25, 75, 24);
+  width: 100%;
+  display: block;
+  position: relative;
+
+   margin: auto;
+  width: 50%;
+  height: auto;
+  border-radius: 7px;
+  cursor: zoom-in;
+
+}
+
+
+.titudescripcion{
+  padding: 10px;
+  font-size: 15px;
+ text-align: center;
+}
+.galeria__columna2 .img {
+display: none;
+}
+
+.galeria__columna{
+ 
+  margin:17px;
+  filter: grayscale(0%);
+  
+}
+.galeria__columna:hover{
+ filter: grayscale(40%);
+}
+ 
+ 
+ 
+ 
+   @media only screen and (max-width: 1550px) {
+ 
+         /* Force table to not be like tables anymore */
+         
+     .textoA .abrir{
+       
+       position:relative;
+       width: auto;
+       top: 2px;
+       left: 5px;
+    
+       
+     }
+     .contenedor-perfil{
+ width: auto;
+ height: auto;
+ 
+     }
+ 
+   
+    
+    
+   
 .logos_png{
 position: relative;
 width: 20%;

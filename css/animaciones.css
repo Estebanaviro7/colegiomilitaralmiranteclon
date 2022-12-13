@@ -1,6 +1,7 @@
 
 body{
-    background: #f8f5c7;
+    background: #f5f0ab;
+    
 }
 
 
@@ -15,9 +16,10 @@ section.awSlider .carousel{
   }
   
   section.awSlider{
-    background: #f8f5c7;
+    
+    
     margin:30px auto;
-    padding:30px;
+    padding:60px;
     position:relative;
     display:table;
     -webkit-touch-callout: none;

@@ -84,7 +84,7 @@ table tr:hover {
   }
 
 
- .modal-contenido{
+ .modal-contenidoE{
   background-color:rgb(252, 248, 209);
   height: 30%;
   width:100%;
@@ -94,7 +94,7 @@ table tr:hover {
   position: relative;
   border-radius: 5px;
 }
-.modal{
+.modalE{
   background-color: rgba(0,0,0,.8);
   height: auto;
   position:fixed;
@@ -106,7 +106,7 @@ table tr:hover {
   pointer-events:none;
   transition: all 1s;
 }
-#miModal:target{
+#miModalE:target{
   display: grid;
   opacity:1;
   pointer-events:auto;
@@ -117,7 +117,7 @@ h2{
   text-align: justify;
 }
 
-.contenido-textos h2 span{
+.contenido-textosE h2 span{
   text-align: center;
   background: #ff044f8f;
   color: rgb(0, 0, 0);
@@ -130,10 +130,10 @@ h2{
   font-weight: 30;
   
 }
-.modal-contenido .cerrar{
+.modal-contenidoE .cerrar{
   background:#ff044f8f ;
   position: absolute;
-  left: 800px;
+  left: 700px;
   bottom: 5px;
   width: 30px;
   text-align: center;
@@ -141,12 +141,12 @@ h2{
 
    
 }
-.contenido-textos .num{
+.contenido-textosE .num{
   text-align: center;
   color:#fff;
   
 }
-.textoA .abrir{
+.textoAE .abrir{
   background:#ff044f8f ;
   position: relative;
   color: #fff;
@@ -161,7 +161,7 @@ h2{
   
 }
 
-.textoA .cerrar{
+.textoAE .cerrar{
   width: auto;
   background:#ff044f8f ;
   position: relative;
@@ -175,20 +175,11 @@ h2{
   text-decoration: none;
   top: 20px;
 }
-.textoA.cerrar:hover{
+.textoAE.cerrar:hover{
   width: auto;
 }
 
-.textoA .abrir:hover  {
-  width: 150px;
-  position: relative;
-     transform: scale(1.2);
-     transition: transform .5s;
-    display: block;
-  background:#ff044fb9 ;
 
-
-}
 
 
 
@@ -198,7 +189,7 @@ h2{
 
 		/* Force table to not be like tables anymore */
 		
-    .textoA .abrir{
+    .textoAE .abrir{
       
       position:relative;
       width: auto;
@@ -226,7 +217,8 @@ height: auto;
      .imgE{
       position: relative;
      
-      left: 20%;
+      left: 1%;
+      bottom: 1px;
       margin: 10px;
        width: 50%;
       height: 50%;
@@ -249,14 +241,14 @@ height: auto;
   }
 
    
-  .modal-contenido  {
+  .modal-contenidoE  {
     
     position: relative;
 
     top: 100px;
   
   }
-  .modal-contenido{
+  .modal-contenidoE{
     background-color:rgb(252, 248, 209);
     height: 27%;
     width:auto;
@@ -266,13 +258,13 @@ height: auto;
     position: relative;
     border-radius: 5px;
   }  
-  .contenido-textos h2{
+  .contenido-textosE h2{
     font-size: 15px;
     position: relative;
     top:50px;
   }
  
-  .modal-contenido .cerrar {
+  .modal-contenidoE .cerrar {
     
     left: 100px;
    

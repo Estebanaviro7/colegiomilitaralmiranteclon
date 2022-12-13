@@ -1,0 +1,103 @@
+
+ .contenedor-perfil{
+    width: auto;
+    height: auto;
+  }
+  
+  @keyframes anim {
+     0% {
+       transform: scaleY(0);
+     }
+     100% {
+       transform: scaleY(1);
+     }
+   }
+
+
+    
+   .divi{
+    border-top: 2px solid rgba(83, 9, 9, 0.534);
+    height: 2px;
+    max-width: 90%;
+    padding: 0;
+    margin: 1px auto 0 auto;
+    position: relative;
+    bottom: 2px;
+  }
+
+.imgacre{
+   width: 90%;
+   margin-left: auto;
+   left: auto;
+   right: auto;
+   padding: 10px;
+   margin: 10px;
+}
+   tr {
+     
+     background: #eee;
+     border-bottom: 1px solid #ddd;
+     display: none;
+     transform-origin: top;
+   }
+   tr.active {
+   
+     display:table-row;
+     animation: anim 0.5s ease;
+   }
+   td {
+     width: auto;
+     padding: 10px;
+   }
+ .titulop{
+     font-size: 35px;
+     position: relative;
+     color: rgb(63, 30, 30);
+     text-align: center;
+     margin-top: 25px;
+     top: 15px;
+ 
+ }
+
+ 
+
+
+ .parrafo{
+
+    font-size: 20px;
+     text-align: center;
+     text-shadow: none;
+     box-shadow: none;
+     padding: 15px;
+ }
+
+ 
+ 
+  
+ h2{
+   margin-bottom: 20px;
+   font-size: 20px;
+   text-align: justify;
+ }
+ 
+
+ 
+ 
+ 
+ 
+ 
+   @media only screen and (max-width: 1550px) {
+ 
+         /* Force table to not be like tables anymore */
+         
+   
+     .contenedor-perfil{
+ width: auto;
+ height: auto;
+ 
+     }
+ 
+   
+ 
+    
+   

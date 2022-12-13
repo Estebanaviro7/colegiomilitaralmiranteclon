@@ -13,20 +13,11 @@
  
 }
 
-
-
-.divi{
-  border-top: 1px solid #8a212191;
-  height: 2px;
-  max-width: 100%;
-  padding: 0;
-  margin: 20px auto 0 auto;
-}
 .preescolar{
     position: relative;
-   left: 200px;
+
     background: #c73636;
-    width: 80%;
+    width: auto;
     height: 180px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);

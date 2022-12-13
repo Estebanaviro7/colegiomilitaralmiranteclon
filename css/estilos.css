@@ -39,7 +39,7 @@ background: #f8f5c7;
 	color: ·642a73;
 	font-size: 30px;
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 1px;
 }
 header {
     width: auto;
@@ -48,7 +48,7 @@ header {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(51, 94%, 66%, 0.459), hsla(50, 69%, 82%, 0.664)), url(../img/portada.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(22, 86%, 81%, 0.459), hsla(81, 90%, 81%, 0.664)), url(../img/portada.jpg);
+    background: linear-gradient(to right, hsla(22, 86%, 81%, 0.459), hsla(81, 90%, 81%, 0.61)), url(../img/portada.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -60,14 +60,14 @@ SECCION DE NAVEGACION
 */
 nav{
     
-    padding: 20px 50px 0 0;
-    margin: 30px auto;
-	width: 100%;
-	background:  linear-gradient(to right, hsla(0, 86%, 81%, 0.459), hsla(51, 90%, 81%, 0.664)) #fa5555;
-	text-align: center;
-	font-weight: bold;
-	border-radius: 10px border: 1px solid;
-    padding: 10px;
+    padding:20px 50px 0 0;
+    margin:3px auto;
+	width:100%;
+	background: linear-gradient(to right, hsla(0, 86%, 81%, 0.459), hsla(51, 90%, 81%, 0.664)) #fa5555;
+	text-align:center;
+	font-weight:bold;
+	border-radius:10px border:1px solid;
+    padding:10px;
     
     
 
@@ -111,29 +111,71 @@ nav > a:hover{
     display: none;
 }
 /*menú responsive*/
-@media (max-width:900px){
+@media (max-width:600px){
     ul li{
        width: 100%;
        padding: 16px;
        text-align: left;
-       
+      
     }
     .hide{
         display: block;
     }
     nav ul{
         display: none;
+        width: auto;
+        
        
     }
      .wave{
          display: none;
      }
-
+     
 
 
     
 }
+    /* EVENTOS  */
+
+    .even{
+        display:none;
+    }
+.letraE{
+    font-family:Helvetica;
+    font-size:20px; 
+    color:#fff;
     
+}
+    .eventos{
+        text-decoration: none;
+        font-family:Helvetica;
+        font-size:20px;
+        padding:10px;
+        display:inline-block;
+        position:relative;
+        left:700px;
+        background:#fab788d9;
+        border-radius:10px;
+        margin:10px;
+    }
+    .eventos:hover{
+        box-shadow: 0px 8px 10px #00000067;
+        background:rgb(255 0 0 / 41%) ;
+        color:#fff
+    }
+
+    
+
+@media (max-width:800px){
+    .even{
+        display:block;
+    }
+   
+    .eventos{
+        display:none;
+    }
+    
+}
 
 /*
 SECCION DE LOGO Y TEXTOS DEL DOLOG
@@ -162,7 +204,7 @@ header .textos-header{
 
 .textos-header h1{
     position: relative;
-    top: 400px;
+    top: 410px;
     font-size: 50px;
     color:#fff;
     text-shadow: 2px 1px #5f5f5f;
@@ -171,7 +213,7 @@ header .textos-header{
 
 .textos-header h2{
     position: relative;
-    top: 250px;
+    top: 380px;
     font-size: 30px;
     font-weight: 300;
     color:#fff;
@@ -180,7 +222,7 @@ header .textos-header{
 
 .textos-header h3{
     position: relative;
-    top: 300px;
+    top: 350px;
     font-size: 30px;
     font-weight: 300;
     color:rgb(252, 95, 95);
@@ -201,16 +243,22 @@ main{
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 main .titulo{
-    padding: 30px 0 60px 0;
+    padding: 30px 0 30px 0;
+    color: rgb(141, 2, 2);
 }
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly; /*repartir espacio*/
 }
-
-
-
-    
+  
+.divi{
+  border-top: 2px solid rgba(141, 2, 2, 0.404);
+  height: 2px;
+  max-width: 90%;
+  padding: 0;
+  margin: 1px auto 0 auto;
+  position: relative;
+  bottom: 29px;
 }
 
 /* Mision-vision*/
@@ -371,6 +419,113 @@ main .titulo{
 	font-size: 14px;
     background: rgba(255, 0, 0, 0.459);
 }
+
+
+
+/* VENTANA MODAL */
+
+body {
+	text-align: center;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+
+
+.modalB {
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.664);
+	
+	position:fixed;
+	top: 0;
+	left: 0;
+	
+	display: block;
+	
+	animation: modal 2s 2s forwards;
+	visibility:visible;
+	opacity: 1;
+}
+.Smodal{
+    display: block;
+    position: fixed;
+}
+
+.contenido1 {
+	margin: auto;
+	width: 80%;
+	height: 80%;
+	background: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+.imgModal{
+    width:100%;
+	height: 100%;  
+    display: block;
+    margin: auto;
+}
+
+#cerrar1 {
+	display: none;
+}
+
+#cerrar1 + label {
+	position: fixed;
+	color: #fff;
+	font-size: 25px;
+	z-index: 50;
+	background: darkred;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	right: 150px;
+	top: 150px;
+	cursor: pointer;
+	
+	animation: modal 2s 3s forwards;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#cerrar1:checked + label, #cerrar1:checked ~ .modalB {
+	display: none;
+}
+
+@keyframes modal {
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width:900px){
+    .imgModal{
+        width:90%;
+        height: 60%;  
+        display: block;
+        margin: auto;
+    }
+
+    .contenido1 {
+        margin: auto;
+        width: 90%;
+        height: 60%;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+
+    #cerrar1 + label{
+        right: 40px;
+        top: 130px;
+    }
+}
+
+ /*VENTANA MODAL*/ 
+
+
 /* Clients */
 
 .cards{
@@ -380,7 +535,7 @@ main .titulo{
 
 .cards .card{
     margin: 15px;
-    background: #86060673;
+    background: #282ffb;
     display: flex;
     width: 50%;
     height: 210px;
@@ -470,7 +625,7 @@ footer{
     position: relative;
     left: 130px;
     width: 60%;
-    background-color: #86060673 ;
+    background-color: #282ffb    ;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 padding: 10px;
 margin: 0.2rem 0 1rem 0;
@@ -674,8 +829,20 @@ border-radius: 2px;
         font-size: 20px;
     }
 }
+@media (max-width: 1300px){
+    img.logoAl{
+        top: 350px;
+       position: absolute;
+        height: 25%;
+        width: 15%;
+        padding: 10px;
+        right: auto;
+        
+    
+        }
 
-@media (max-width: 868px) {
+}
+@media (max-width: 800px) {
     .textos-header h1{
         position: relative;
         top: 490px;
@@ -704,14 +871,23 @@ border-radius: 2px;
         padding: 5px;
     }
     img.logoAl{
-        top: 470px;
+        top: 440px;
        position: absolute;
-        height: 20%;
-        width: 25%;
+        height: 17%;
+        width: 21%;
         padding: 10px;
+        right: auto;
         
+    
+        }
+
+        .wave{
+            display: none;
         }
 
         .footer{
             height: 100%;
         }
+
+      
+         }

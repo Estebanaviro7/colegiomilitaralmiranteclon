@@ -1,0 +1,49 @@
+.galeria__columna .img {
+    background: coral;
+    width: 100%;
+    display: block;
+    position: relative;
+
+     margin: auto;
+    width: 50%;
+    height: auto;
+    border-radius: 7px;
+    cursor: zoom-in;
+ 
+}
+
+.divi{
+    border-top: 1px solid #6a6a6a91;
+    height: 2px;
+    max-width: 90%;
+    padding: 0;
+    margin: 1px auto 0 auto;
+    position: relative;
+    bottom: 17px;
+  }
+
+
+h1{
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.titudescripcion{
+    padding: 10px;
+    font-size: 15px;
+   text-align: center;
+}
+.galeria__columna2 .img {
+display: none;
+}
+
+.galeria__columna{
+   
+    margin:17px;
+    filter: grayscale(0%);
+    
+}
+.galeria__columna:hover{
+   filter: grayscale(40%);
+ }

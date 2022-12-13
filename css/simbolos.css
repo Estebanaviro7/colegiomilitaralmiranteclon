@@ -1,4 +1,14 @@
 /* Ocultar botón radio */
+.divi{
+    border-top: 1px solid rgba(141, 2, 2, 0.61);
+    height: 2px;
+    max-width: 90%;
+    padding: 0;
+    margin: 2px auto 0 auto;
+    bottom: 17px;
+    position: relative;
+  }
+
 input[id^="spoiler"]{
     display: none;
     }
@@ -14,7 +24,7 @@ input[id^="spoiler"]{
 
     position:relative;
     
-    left: 23%;
+    left: 2%;
   
 
     margin-left: 15px;

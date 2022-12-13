@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.categories {
+  margin: 2% 1.5%;
+  z-index: 9990;
+}
+
+.categories button {
+  border: 2px solid #ddd;
+  z-index: 9990;
+  border-radius: 3px;
+  min-width: 80px;
+  min-height: 37px;
+  padding: 10px;
+  background-color: #fff;
+  font-weight: 600;
+  color: rgb(134, 133, 133);
+  outline: none;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.categories button:hover {
+  border: 2px solid rgba(117, 74, 74, 0.664);
+  color: rgba(117, 74, 74, 0.664);
+}
+
+.categories button:focus {
+  border: 2px solid #3498ff;
+  color: #3498ff;
+}
+
+.image-gallery {
+  z-index: 9990;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}
+
+.image-card {
+  display: inline-block;
+  width: 31%;
+  margin: 1.5% 0 0 1.5%;
+  padding-top: 21%;
+  border-radius: 4px;
+  background-color: #FFF;
+  position: relative;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image-card:hover {
+  -webkit-box-shadow: 0 0 8px 0 #3498ff;
+  box-shadow: 0 0 8px 0 #3498ff;
+}
+
+.no-event {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: 100%;
+  pointer-events: none;
+}
+
+.both {
+  clear: both; 
+}
+
+@media screen and (max-width: 480px) {
+  .image-card {
+    width: 45%;
+    padding-top: 45%;
+    margin: 1.5%;
+  }
+  
+  .categories {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  .categories button {
+    width: 47.5%;
+    float: none;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 3vmin;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .image-card {
+    width: 80%;
+    padding-top: 80%;
+    margin: 2% 10%;
+  }
+  
+  .categories button {
+    width: 80%;
+    float: none;
+    display: block;
+    margin: 0px auto 7px auto;
+    font-size: 5vmin;
+  }
+}
